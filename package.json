@@ -1,0 +1,21 @@
+{
+  "name": "cashmachine",
+  "version": "1.0.0",
+  "description": "Cash Machine App",
+  "main": "dist/src/cashMachine.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^2.8.6",
+    "jasmine": "^3.1.0",
+    "jasmine-ts-console-reporter": "^3.1.1",
+    "nodemon": "^1.17.1"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
