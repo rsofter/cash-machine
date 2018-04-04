@@ -17,6 +17,26 @@ Install node modules `npm install`
 ## Using
 ### Run Jasmine tests
 `npm test`
+
+Results:
+
+```
+Entry: 30
+Result: 20,10
+Entry: 80
+Result: 50,20,10
+Entry: 125
+Result: NoteUnavailableException
+Entry: -130
+Result: InvalidArgumentException
+Entry: null
+Result: Empty Set
+Entry: 1
+Result: NoteUnavailableException
+Entry: 300
+Result: 100,100,100
+```
+
 ### NodeJS API
 1. Run NodeJS Server
 ```
