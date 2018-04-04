@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var cashMachine_1 = require("../cashMachine");
+var cashMachine_1 = require("../src/cashMachine");
 describe("Cash Machine tests", function () {
     it("Test #1: entry = 30", function () {
         var entry = 30;

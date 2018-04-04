@@ -1,4 +1,4 @@
-import { CashMachine } from "../cashMachine";
+import { CashMachine } from "../src/cashMachine";
 
 describe("Cash Machine tests", function () {
     it("Test #1: entry = 30", function () {

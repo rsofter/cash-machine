@@ -1,5 +1,5 @@
 // Base server setup
-var cashMachineModule = require("./dist/cashMachine"),
+var cashMachineModule = require("./dist/src/cashMachine"),
     express = require("express"),
     cashMachineApp = express(),
     port = process.env.PORT || 3000;

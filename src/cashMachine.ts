@@ -45,7 +45,6 @@ class CashMachine {
             console.error(`Result: ${ex}`);
             return new CashMachineResponse(true, [], ex);
         }
-
     }
 
 
